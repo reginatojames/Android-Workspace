@@ -5,21 +5,21 @@
 
     <TextView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Nome"
         android:id="@+id/txtNome"
         android:layout_weight="1" />
 
     <TextView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Cognome"
         android:id="@+id/txtSurname"
         android:layout_weight="1" />
 
     <TextView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="id"
         android:textAlignment="center"
         android:id="@+id/txtId"
