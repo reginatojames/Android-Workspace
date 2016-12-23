@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CGI Checker</string>
+    <string name="ciDesc">La \'Cell Identity\' ritorna l\'ID della cella</string>
+    <string name="lacDesc">Il \'Location Area Code\' identifica l\'area in cui la cella si trova</string>
+    <string name="mccDesc">Il \'Mobile Country Code\' è il codice che identifica il paese del gestore</string>
+    <string name="mncDesc">Il \'Mobile Network Code\' con queste cifre potrai ricavare il nome del gestore telefonico</string>
+    <string name="alert_message">Stai mandando il codice CGI e posizione a Securcube, così facendo ci aiuterai a identificare le celle in giro per il mondo</string>
+    <string name="alert_negative">annulla</string>
+    <string name="connection_error">Connessione Assente</string>
+    <string name="permission_explanation">La tua autorizzazione è necessaria per ricavare il tuo codice CGI e la posizione della cella</string>
+    <string name="no_permission">Permessso negato: l\'app non funzionerà</string>
+    <string name="error">ERRORE </string>
+    <string name="success">Invio andato a buon fine! Grazie!</string>
+</resources>

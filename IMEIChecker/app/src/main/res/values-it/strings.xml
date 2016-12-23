@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMEI Checker</string>
+    <string name="firststep_explanation">Il codice IMEI viene suddiviso nel seguente modo: le prime 8 cifre corrispondono al \'Type Allocation Code\' cioè il codice identificativo della Marca/Modello, le successive 6 corrispondono al \'Serial Number\' cioè l\'elemento seriale identificativo del dispositivo, e infine l\'ultima cifra corrisponde al codice di verifica, cioè il \'Check Digit\'.</string>
+    <string name="getting_imei_button">controlla il mio imei</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="output_forcode">CODICE IMEI CORRETTO</string>
+    <string name="permission_denied">READ_PHONE_STATE permesso negato</string>
+    <string name="send_success">Codice inviato, grazie!</string>
+    <string name="error">ERRORE!</string>
+    <string name="connection_failed">CONNESSIONE FALLITA: PER FAVORE CONTROLLA LA TUA CONNESSIONE</string>
+    <string name="permission_explanation">L\'autorizzazione è necessaria per avere il tuo codice IMEI</string>
+    <string name="tab_IMEI_formule">CONTROLLA IMEI</string>
+    <string name="tab_luhn_formule">FORMULA DI LUHN</string>
+    <string name="wrong_imei">CODICE IMEI ERRATO</string>
+    <string name="secondstep_explanation">Dopo di che moltipliceheremo per 2 i numeri in posizione dispari (partendo da destra e ignorando il check digit), e nel caso la moltiplicazione torni risultati con due cifre, esse verranno sommate tra di loro.\n(es. 18 = 1+8)</string>
+    <string name="thirdstep_explanation" formatted="false">Infine sommiamo tutte le cifre tra di loro, ed eseguiamo il resto modulo \'%10\' se è divisibile per 10 restuitirà 0, altrimenti dovremmo sottrarre anche 10\n(es. CheckDigitCalcolato = 10 - (42%10))\n per poi confrontare il risultato con il Check Digit innestato nell\'IMEI.</string>
+    <string name="luhn_formula_explanation">La formula di Luhn, anche conosciuta come Modulo 10, è un semplice algoritmo che consente di generare e verificare la validità di vari numeri identificativi. Venne ideata nel 1954 dall\'informatico dell\'IBM Hans Peter Luhn e brevettata nel 1960. Ora di pubblico dominio ha molteplici applicazioni, ad esempio per i numeri delle carte di credito.\n\nLa cifra di controllo di tipo Luhn viene calcolata in modo semplice. Si sommano tutte le cifre del numero in posizione pari, al doppio della somma di quelle in posizione dispari. Si considera quindi il modulo rispetto a 10 (ovvero il resto della divisione per 10) del valore così ottenuto:\n-se il modulo è 0 (la somma è divisibile per 10) la cifra di controllo sarà 0. Ad esempio se la somma = 60 che diviso per 10 dà resto 0, la cifra di Luhn sarà 0\n-altrimenti la cifra di Luhn sarà la differenza tra 10 ed il modulo. Ad esempio se la somma = 61 che diviso per 10 dà resto 1, la cifra di Luhn sarà 9 (10-1)\n\nFonte: https://it.wikipedia.org/wiki/Formula_di_Luhn</string>
+    <string name="alert_message">Invierai il tuo IMEI a Securcube, così facendo ci aiuterai a identificare i le marche e i modelli dei telefoni esistenti</string>
+    <string name="alert_positive">invia</string>
+    <string name="alert_negative">annulla</string>
+    <string name="sendbtn_text">invia il mio imei</string>
+</resources>

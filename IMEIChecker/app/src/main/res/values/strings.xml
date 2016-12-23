@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IMEI Checker</string>
+    <string name="title_activity_home_container">HomeContainer</string>
+    <string name="action_settings">Settings</string>
+    <string name="getting_imei_button">check my imei</string>
+    <string name="output_forcode">THE IMEI CODE IS CORRECT</string>
+    <string name="tab_luhn_formule">LUHN FORMULA</string>
+    <string name="tab_IMEI_formule">CHECK IMEI</string>
+    <string name="permission_explanation">The authorization is necessary to get your IMEI code</string>
+    <string name="wrong_imei">WRONG IMEI CODE!</string>
+    <string name="permission_denied">READ_PHONE_STATE permission denied</string>
+    <string name="send_success">Data sent successfully, thank you!</string>
+    <string name="error">ERROR!</string>
+    <string name="connection_failed">CONNECTION FAILED: please check your phone data</string>
+    <string name="firststep_explanation">The IMEI code gets divided in this way: the first 8 disgits correspond to \'Type Allocation Code\' the identification code of the Trend/Model, the next 6 correspond to \'Serial Number\' which is the serial identification code of the device, lastly the ultimate digit is the verification code, which is called \'Check Digit\'.</string>
+    <string name="secondstep_explanation">After that we will multiply for 2 the numbers in odd position (starting from the right and ignoring the Check Digit), and in the case the multiplication returns a two digits result, they will be summed to each other. \n(eg. 18 = 1+8)</string>
+    <string name="thirdstep_explanation" formatted="false">At the end we sum every digit with each other, and we execute the rest of the modulus \'%10\' if it is divisible for 10 it will return 0, otherwise we\'ll have to subtract 10 \n(eg. CheckDigitCalcolato = 10 - (42%10))\nand finally compare the result with the Check Digit in the IMEI code.</string>
+    <string name="luhn_formula_explanation">The Luhn algorithm or Luhn formula, also known as the \'modulus 10\' or \'mod 10\' algorithm, is a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers, IMEI numbers, National Provider Identifier numbers in the US, and Canadian Social Insurance Numbers. It was created by IBM scientist Hans Peter Luhn and described in U.S. Patent No. 2,950,048, filed on January 6, 1954, and granted on August 23, 1960.\n\nThe formula verifies a number against its included check digit, which is usually appended to a partial account number to generate the full account number. This number must pass the following test:|\n-From the rightmost digit, which is the check digit, moving left, double the value of every second digit; if the product of this doubling operation is greater than 9 (e.g., 8 × 2 = 16), then sum the digits of the products (e.g., 16: 1 + 6 = 7, 18: 1 + 8 = 9) or alternatively subtract 9 from the product (e.g., 16: 16 - 9 = 7, 18: 18 - 9 = 9).\n-Take the sum of all the digits.\nIf the total modulo 10 is equal to 0 (if the total ends in zero) then the number is valid according to the Luhn formula; else it is not valid.\n\nSource: https://en.wikipedia.org/wiki/Luhn_algorithm</string>
+    <string name="alert_message">You are going to send your IMEI to SecurCube, by doing so you\'ll help us recognize phone\'s model and manufacturer</string>
+    <string name="alert_positive">send</string>
+    <string name="alert_negative">cancel</string>
+    <string name="sendbtn_text">send my imei</string>
+</resources>

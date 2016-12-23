@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CGI Checker</string>
+    <string name="mccDesc">The \'Mobile Country Code\' is the code that indentifies the provider\'s country</string>
+    <string name="mncDesc">This is the \'Mobile Network Code\' with these digits you can retrieve the provider\'s name</string>
+    <string name="lacDesc">The \'Location Area Code\' identifies the area where the cell is located</string>
+    <string name="ciDesc">The \'Cell Identity\' retrieves the ID of the cell</string>
+    <string name="alert_message">You are going to send the CGI and location to Securcube, by doing so you\'ll help us recognize cells around the world</string>
+    <string name="alert_positive" translatable="false">ok</string>
+    <string name="alert_negative">cancel</string>
+    <string name="connection_error">Connection Absent</string>
+    <string name="permission_explanation">Your authorization is necessary to get your CGI code and cell\'s  position</string>
+    <string name="no_permission">Permission denied: the app won\'t work</string>
+    <string name="error">ERROR </string>
+    <string name="success">Data sent successfully! Thank you!</string>
+</resources>
